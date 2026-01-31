@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme {
+    --color-primary: var(--color-primary);
+    --color-background-dark: var(--color-background-dark);
+}
+
+:root {
+    --color-primary: #2463eb;
+    --color-background-dark: #111621;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-display {
+    font-family: 'Inter', sans-serif;
+}
+
+.code-font {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.font-editor {
+    font-family: 'Space Grotesk', sans-serif;
+}
